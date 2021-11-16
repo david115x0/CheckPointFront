@@ -1,0 +1,18 @@
+div.descricao {
+    font-family: "Roboto", sans-serif;
+    background-color: #2d3436;
+    /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
+    margin-left: 20px;
+    background-image: url('./img/car.jpg');
+    div {
+        h1 {
+            text-align: left;
+            color: white;
+            
+        }
+        p {
+            font-size: small;
+            color: white;
+        }
+    }
+}
