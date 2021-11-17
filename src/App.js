@@ -11,13 +11,13 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <main>
         <Header />
+        <main>
         <Banner />
         <Description />
         <Cards />
-        <Footer />
         </main>
+        <Footer />
       </>
     )
   }

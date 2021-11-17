@@ -1,5 +1,4 @@
 section {
-    display: flex;
     margin: 200px;
     font-family: "Roboto", sans-serif;
 
@@ -74,4 +73,31 @@ h1 {
     align-items: center;
     text-align: center;
     color: white;
+}
+@media (max-width: 633px) {
+    section {
+        align-items: center;
+        height: 300px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 210px;
+        div.card-body {
+            p {
+                font-size: small;
+            }
+            a.card-link {
+                font-size: small;
+                margin-top: 32px;
+            }
+            a{
+                
+                width: 150px;
+            }
+        }
+    }
+    h1 {
+        align-items: center;
+        padding: 5px;
+        margin-right: 70px;
+    }
 }
